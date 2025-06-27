@@ -1,0 +1,117 @@
+{
+  "slide01": {
+    "type": "title_slide",
+    "description": "首页",
+    "text_elements": {
+      "main_title": {
+        "id": 3,
+        "description": "主标题文本框"
+      },
+      "subtitle": {
+        "id": 4,
+        "description": "副标题文本框"
+      },
+      "speaker": {
+        "id": 5,
+        "description": "演讲人文本框"
+      }
+    }
+  },
+  "slide02": {
+    "type": "content_page",
+    "description": "目录页",
+    "text_elements": {
+      "main_title": {
+        "id": 3,
+        "description": "Content标题"
+      },
+      "subtitle": {
+        "id": 4,
+        "description": "目录副标题"
+      },
+      "chapters": {
+        "id_range": "5-19",
+        "description": "目录项目（包括章节编号和标题）"
+      }
+    }
+  },
+  "chapter_title_slides": {
+    "type": "chapter_title",
+    "description": "章节标题页（slide3, slide7等）",
+    "text_elements": {
+      "chapter_number": {
+        "id": 3,
+        "description": "章节编号"
+      },
+      "chapter_title": {
+        "id": 4,
+        "description": "章节标题"
+      }
+    }
+  },
+  "content_slides": {
+    "type": "content_page",
+    "description": "内容页（slide4, slide8等）",
+    "text_elements": {
+      "title": {
+        "id": 5,
+        "description": "主标题"
+      },
+      "spacing": {
+        "id": 6,
+        "description": "空白文本框（用于间距）"
+      },
+      "body": {
+        "id": 7,
+        "description": "正文内容"
+      }
+    }
+  },
+  "steps_slide": {
+    "type": "steps_page",
+    "description": "步骤页（slide6）",
+    "text_elements": {
+      "title": {
+        "id": 4,
+        "description": "主标题"
+      },
+      "spacing": {
+        "id": 5,
+        "description": "空白文本框（用于间距）"
+      },
+      "steps": {
+        "id_range": "7-30",
+        "description": "步骤文本框（每组包含编号、标题和内容）",
+        "step_structure": {
+          "number": "步骤编号",
+          "title": "步骤标题",
+          "content": "步骤内容"
+        }
+      }
+    }
+  },
+  "summary_slide": {
+    "type": "summary",
+    "description": "总结页（slide22）",
+    "text_elements": {
+      "title": {
+        "id": 3,
+        "description": "主标题"
+      },
+      "points": {
+        "id_range": "4-6",
+        "description": "总结要点"
+      }
+    }
+  },
+  "end_slide": {
+    "type": "end_page",
+    "description": "结束页（slide23）",
+    "text_elements": {
+      "title": {
+        "id": 3,
+        "description": "结束标题"
+      }
+    }
+  }
+} 
