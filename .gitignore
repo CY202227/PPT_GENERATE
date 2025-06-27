@@ -2,7 +2,7 @@
 .env
 data/
 backup/
-
+template/
 # Python
 __pycache__/
 *.py[cod]

@@ -6,8 +6,11 @@ from smart_art_generator import SmartArtGenerator
 
 # --- 1. 配置 ---
 # 建议从环境变量或配置文件中读取，这里为方便演示而硬编码
-API_KEY = "sk-123456789"
-BASE_URL = "http://180.153.21.76:17009/v1"
+API_KEY = os.getenv("API_KEY")
+BASE_URL = os.getenv("BASE_URL")
+if not API_KEY or not BASE_URL:
+    print("错误：请在.env文件中设置API_KEY和BASE_URL")
+    raise ValueError("API_KEY和BASE_URL未设置")
 
 # 输入的文本段落
 INPUT_TEXT = "我们项目的启动流程是这样的：首先，产品经理提出需求。接着，开发团队会对需求进行评审。关于评审，主要关注技术可行性和资源匹配两个核心要点。评审通过后，UI和开发将同步进行工作。"

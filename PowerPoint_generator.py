@@ -478,6 +478,7 @@ class PPTGenerator:
                             # 检查是否包含数字序号
                             has_number = False
                             number_text = None
+                            number_node = None
                             
                             # 先检查是否有纯数字文本
                             for r in p.findall('.//a:r', namespaces):
@@ -485,29 +486,42 @@ class PPTGenerator:
                                 if t is not None and t.text and t.text.strip().isdigit():
                                     has_number = True
                                     number_text = t.text
+                                    number_node = t
                                     break
-                            
-                            # 如果是数字序号，保留它
-                            if has_number:
-                                continue
                             
                             # 如果文本框ID在slide_content中有对应内容，使用该内容
                             if shape_id in slide_content:
                                 new_text = slide_content[shape_id]
-                                for r in p.findall('.//a:r', namespaces):
-                                    t = r.find('a:t', namespaces)
-                                    if t is not None:
-                                        updates.append((t, new_text))
-                            # 否则，使用新生成的内容
+                                # 如果有数字序号，保留序号
+                                if has_number:
+                                    # 更新除了序号以外的所有文本节点
+                                    for r in p.findall('.//a:r', namespaces):
+                                        t = r.find('a:t', namespaces)
+                                        if t is not None and t is not number_node:
+                                            updates.append((t, new_text))
+                                else:
+                                    # 更新所有文本节点
+                                    for r in p.findall('.//a:r', namespaces):
+                                        t = r.find('a:t', namespaces)
+                                        if t is not None:
+                                            updates.append((t, new_text))
+                            # 否则，对所有非序号文本生成新内容
                             else:
+                                # 收集所有非序号文本
+                                text_nodes = []
+                                full_text = ""
                                 for r in p.findall('.//a:r', namespaces):
                                     t = r.find('a:t', namespaces)
-                                    if t is not None and t.text and t.text.strip():
-                                        # 构建提示词
-                                        prompt = f"""
+                                    if t is not None and t is not number_node and t.text and t.text.strip():
+                                        text_nodes.append(t)
+                                        full_text += t.text
+                                
+                                if text_nodes:
+                                    # 构建提示词
+                                    prompt = f"""
 请根据以下要求生成新的文本内容：
 
-原文本：{t.text}
+原文本：{full_text}
 新的上下文：{text_content}
 
 要求：
@@ -519,15 +533,17 @@ class PPTGenerator:
 
 请直接返回生成的文本，不要包含任何其他内容。
 """
-                                        # 调用API生成新内容
-                                        response = self.client.chat.completions.create(
-                                            model="Qwen-72B",
-                                            messages=[{"role": "user", "content": prompt}],
-                                            temperature=0.7,
-                                            max_tokens=500
-                                        )
-                                        
-                                        new_text = response.choices[0].message.content.strip()
+                                    # 调用API生成新内容
+                                    response = self.client.chat.completions.create(
+                                        model="Qwen-72B",
+                                        messages=[{"role": "user", "content": prompt}],
+                                        temperature=0.7,
+                                        max_tokens=500
+                                    )
+                                    
+                                    new_text = response.choices[0].message.content.strip()
+                                    # 将新文本分配给所有非序号文本节点
+                                    for t in text_nodes:
                                         updates.append((t, new_text))
             
             # 如果是图表，处理图表文本
@@ -586,14 +602,18 @@ class PPTGenerator:
             # 4. 修改幻灯片内容
             slides_dir = os.path.join(extract_dir, "ppt", "slides")
             if os.path.exists(slides_dir):
+                # 计算总页数（首页 + 目录页 + 内容页数）
+                total_slides = 2 + content_pages
+                
                 # 遍历所有幻灯片XML文件
-                for slide_file in sorted(os.listdir(slides_dir)):
+                slide_files = sorted(os.listdir(slides_dir))
+                for slide_file in slide_files:
                     if slide_file.endswith(".xml"):
                         slide_number = int(slide_file.replace("slide", "").replace(".xml", ""))
                         
-                        # 检查是否需要跳过此幻灯片
-                        if self.should_skip_slide(slide_number, content_pages):
-                            logger.info(f"跳过处理幻灯片 {slide_number}")
+                        # 如果超出了总页数，跳过处理
+                        if slide_number > total_slides:
+                            logger.info(f"跳过处理超出范围的幻灯片 {slide_number}")
                             continue
                         
                         slide_path = os.path.join(slides_dir, slide_file)
