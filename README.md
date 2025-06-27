@@ -13,24 +13,27 @@ An intelligent PowerPoint presentation generator that automatically creates and 
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.13+
 - OpenAI API key
 - Required Python packages (see `requirements.txt`)
 
 ## Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/PPT_Generate.git
+git clone https://github.com/CY202227/PPT_GENERATE.git
 cd PPT_Generate
 ```
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Create a `.env` file in the project root and add your API credentials:
+
 ```
 API_KEY=your_openai_api_key
 BASE_URL=your_api_base_url
@@ -39,11 +42,12 @@ BASE_URL=your_api_base_url
 ## Usage
 
 1. Prepare your template files:
+
    - Place your PowerPoint template in the project root as `template.pptx`
    - Create a template description file `template_description.json`
    - Create an outline file `template_outline_01.json`
-
 2. Run the generator:
+
 ```bash
 python PowerPoint_generator.py
 ```
@@ -102,4 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - OpenAI for providing the API
 - Python-PPTX library for PowerPoint manipulation
-- All contributors and users of this project 
+- All contributors and users of this project
