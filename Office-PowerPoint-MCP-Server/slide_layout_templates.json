@@ -1,0 +1,1875 @@
+{
+  "slides": [
+    {
+      "layout_name": "节标题",
+      "elements": [
+        {
+          "type": "text",
+          "content": "主标题放置处",
+          "id": 7,
+          "name": "标题 1",
+          "position": {
+            "left": 5317490,
+            "top": 4902097,
+            "width": 11435080,
+            "height": 1396366
+          }
+        },
+        {
+          "type": "text",
+          "content": "今日日期放置处",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 9815195,
+            "top": 10601960,
+            "width": 11435080,
+            "height": 1396365
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "Slide2的标题内容展示",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 3179445,
+            "top": 1282886,
+            "width": 8272145,
+            "height": 755913
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 18,
+          "name": "图片 17",
+          "position": {
+            "left": 9944100,
+            "top": 3134360,
+            "width": 10337800,
+            "height": 8563610
+          }
+        },
+        {
+          "type": "text",
+          "content": "正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示正文内容展示",
+          "id": 10,
+          "name": "Text 2",
+          "position": {
+            "left": 1333500,
+            "top": 2705100,
+            "width": 8149590,
+            "height": 7200900
+          }
+        },
+        {
+          "type": "text",
+          "content": "说明：说明内容展示。",
+          "id": 3,
+          "name": "文本框 2",
+          "position": {
+            "left": 2056765,
+            "top": 10179685,
+            "width": 7227570,
+            "height": 521970
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "Slide3标题内容展示",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 3323590,
+            "top": 1265424,
+            "width": 16680180,
+            "height": 755913
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "圆角矩形 4",
+          "position": {
+            "left": 2265045,
+            "top": 4222115,
+            "width": 17745075,
+            "height": 1558925
+          }
+        },
+        {
+          "type": "text",
+          "content": "一、举例小标题",
+          "id": 6,
+          "name": "圆角矩形 5",
+          "position": {
+            "left": 2264410,
+            "top": 3655695,
+            "width": 3764915,
+            "height": 887730
+          }
+        },
+        {
+          "type": "text",
+          "content": "举例说明简短介绍，对应举例小标题1",
+          "id": 7,
+          "name": "文本框 6",
+          "position": {
+            "left": 2892425,
+            "top": 4542155,
+            "width": 16718915,
+            "height": 662554
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 11,
+          "name": "圆角矩形 10",
+          "position": {
+            "left": 2264410,
+            "top": 6525895,
+            "width": 17745075,
+            "height": 2125980
+          }
+        },
+        {
+          "type": "text",
+          "content": "二、举例小标题",
+          "id": 12,
+          "name": "圆角矩形 11",
+          "position": {
+            "left": 2263775,
+            "top": 5959475,
+            "width": 3764915,
+            "height": 887730
+          }
+        },
+        {
+          "type": "text",
+          "content": "举例说明简短介绍，对应举例小标题2",
+          "id": 13,
+          "name": "文本框 12",
+          "position": {
+            "left": 2891790,
+            "top": 6845935,
+            "width": 16718915,
+            "height": 662554
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 14,
+          "name": "圆角矩形 13",
+          "position": {
+            "left": 2265680,
+            "top": 9390380,
+            "width": 17745075,
+            "height": 2104390
+          }
+        },
+        {
+          "type": "text",
+          "content": "三、举例小标题",
+          "id": 15,
+          "name": "圆角矩形 14",
+          "position": {
+            "left": 2265045,
+            "top": 8823960,
+            "width": 3764915,
+            "height": 887730
+          }
+        },
+        {
+          "type": "text",
+          "content": "举例说明简短介绍，对应举例小标题3",
+          "id": 16,
+          "name": "文本框 15",
+          "position": {
+            "left": 2893060,
+            "top": 9710420,
+            "width": 16718915,
+            "height": 662554
+          }
+        },
+        {
+          "type": "text",
+          "content": "一小段说明文字",
+          "id": 46,
+          "name": "文本框 45",
+          "position": {
+            "left": 2266315,
+            "top": 2421890,
+            "width": 17745075,
+            "height": 817853
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "模型是什么，怎么使用？",
+          "id": 37,
+          "name": "标题 1",
+          "position": {
+            "left": 2969895,
+            "top": 1232853,
+            "width": 16674465,
+            "height": 812165
+          }
+        },
+        {
+          "type": "text",
+          "content": "简单的说，大语言模型是一个通过学习海量文本，能像人一样聊天、编写信息的智能程序。\n目前办公辅助平台集成了DeepSeek R1和通义千问72B两大语言模型，可在使用过程中任意切换。",
+          "id": 46,
+          "name": "文本框 45",
+          "position": {
+            "left": 1264920,
+            "top": 2265045,
+            "width": 19751675,
+            "height": 1568450
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "模型",
+              "适用场景"
+            ],
+            [
+              "DeepSeek R1",
+              "擅长逻辑推理，适合做数据处理、流程分析、知识库建设与交叉检索类任务"
+            ],
+            [
+              "通义千问 72B",
+              "擅长语义理解，适合做政策解读、文本创作、会议与档案管理类任务"
+            ]
+          ],
+          "id": 2,
+          "name": "表格 1",
+          "position": {
+            "left": 1972310,
+            "top": 3945890,
+            "width": 17644745,
+            "height": 2962275
+          }
+        },
+        {
+          "type": "text",
+          "content": "在智能体或知识库的对话框中找到模型，可按个人喜好配置默认的模型",
+          "id": 3,
+          "name": "文本框 2",
+          "position": {
+            "left": 1988185,
+            "top": 7357110,
+            "width": 5663565,
+            "height": 2306955
+          }
+        },
+        {
+          "type": "text",
+          "content": "友情提醒：使用平台时请注意安全性问题，请勿上传涉密的文件哦！",
+          "id": 4,
+          "name": "文本框 3",
+          "position": {
+            "left": 1274445,
+            "top": 10502900,
+            "width": 19180175,
+            "height": 927735
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 6,
+          "name": "图片 5",
+          "position": {
+            "left": 8103870,
+            "top": 7357110,
+            "width": 5041900,
+            "height": 2946400
+          }
+        },
+        {
+          "type": "text",
+          "content": "将自己喜好的模型【设为默认】，系统就记住啦",
+          "id": 9,
+          "name": "椭圆形标注 8",
+          "position": {
+            "left": 14238605,
+            "top": 7357110,
+            "width": 3997325,
+            "height": 2691765
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "group",
+          "elements": [
+            {
+              "type": "text",
+              "content": "",
+              "id": 41,
+              "name": "圆角矩形 40",
+              "position": {
+                "left": 3569,
+                "top": 7971,
+                "width": 6345,
+                "height": 7441
+              }
+            },
+            {
+              "type": "text",
+              "content": "",
+              "id": 44,
+              "name": "圆角矩形 43",
+              "position": {
+                "left": 3854,
+                "top": 10837,
+                "width": 5805,
+                "height": 4277
+              }
+            }
+          ],
+          "id": 40,
+          "name": "组合 39",
+          "position": {
+            "left": 16438245,
+            "top": 3473450,
+            "width": 4450715,
+            "height": 7568565
+          }
+        },
+        {
+          "type": "group",
+          "elements": [
+            {
+              "type": "text",
+              "content": "",
+              "id": 35,
+              "name": "圆角矩形 34",
+              "position": {
+                "left": 3569,
+                "top": 7971,
+                "width": 6345,
+                "height": 6032
+              }
+            },
+            {
+              "type": "text",
+              "content": "",
+              "id": 38,
+              "name": "圆角矩形 37",
+              "position": {
+                "left": 3854,
+                "top": 10305,
+                "width": 5805,
+                "height": 3471
+              }
+            },
+            {
+              "type": "text",
+              "content": "输入提纲主题，生成提纲参考\n提纲生成后，可结合AI助手进行分段内容创作",
+              "id": 39,
+              "name": "文本框 38",
+              "position": {
+                "left": 10873,
+                "top": 10303,
+                "width": 5231,
+                "height": 3317
+              }
+            }
+          ],
+          "id": 34,
+          "name": "组合 33",
+          "position": {
+            "left": 11303635,
+            "top": 3472815,
+            "width": 9384665,
+            "height": 7569835
+          }
+        },
+        {
+          "type": "group",
+          "elements": [
+            {
+              "type": "text",
+              "content": "",
+              "id": 28,
+              "name": "圆角矩形 27",
+              "position": {
+                "left": 3569,
+                "top": 7971,
+                "width": 6345,
+                "height": 6032
+              }
+            },
+            {
+              "type": "text",
+              "content": "范文生成",
+              "id": 30,
+              "name": "文本框 29",
+              "position": {
+                "left": 11789,
+                "top": 8150,
+                "width": 3636,
+                "height": 515
+              }
+            },
+            {
+              "type": "text",
+              "content": "",
+              "id": 31,
+              "name": "圆角矩形 30",
+              "position": {
+                "left": 3854,
+                "top": 10305,
+                "width": 5805,
+                "height": 3471
+              }
+            },
+            {
+              "type": "text",
+              "content": "选择公文类型（通知/通告）、设定主要内容、主送单位、发文机关、通知时间、行文要求等",
+              "id": 32,
+              "name": "文本框 31",
+              "position": {
+                "left": 11171,
+                "top": 10306,
+                "width": 5148,
+                "height": 3315
+              }
+            }
+          ],
+          "id": 27,
+          "name": "组合 26",
+          "position": {
+            "left": 6172835,
+            "top": 3492500,
+            "width": 9533255,
+            "height": 7550150
+          }
+        },
+        {
+          "type": "text",
+          "content": "【公文写作】功能中提供哪些写作工具？",
+          "id": 37,
+          "name": "标题 1",
+          "position": {
+            "left": 3335655,
+            "top": 1232853,
+            "width": 16674465,
+            "height": 812165
+          }
+        },
+        {
+          "type": "group",
+          "elements": [
+            {
+              "type": "text",
+              "content": "",
+              "id": 18,
+              "name": "圆角矩形 17",
+              "position": {
+                "left": 3569,
+                "top": 7971,
+                "width": 6345,
+                "height": 6431
+              }
+            },
+            {
+              "type": "text",
+              "content": "自定义生成",
+              "id": 19,
+              "name": "文本框 18",
+              "position": {
+                "left": 11782,
+                "top": 8193,
+                "width": 3775,
+                "height": 545
+              }
+            },
+            {
+              "type": "text",
+              "content": "",
+              "id": 20,
+              "name": "圆角矩形 19",
+              "position": {
+                "left": 3854,
+                "top": 10479,
+                "width": 5805,
+                "height": 3629
+              }
+            },
+            {
+              "type": "text",
+              "content": "设定写作背景、角色或视角、写作要求、分段内容、字数、内容溯源等要求",
+              "id": 22,
+              "name": "文本框 21",
+              "position": {
+                "left": 11108,
+                "top": 10488,
+                "width": 5050,
+                "height": 3066
+              }
+            }
+          ],
+          "id": 26,
+          "name": "组合 25",
+          "position": {
+            "left": 1124585,
+            "top": 3472180,
+            "width": 9298003,
+            "height": 7609519
+          }
+        },
+        {
+          "type": "text",
+          "content": "写作中辅助素材收集，提供内容参考，可结合任意工具使用",
+          "id": 17,
+          "name": "Text 2",
+          "position": {
+            "left": 1452245,
+            "top": 4297680,
+            "width": 3957320,
+            "height": 1588135
+          }
+        },
+        {
+          "type": "text",
+          "content": "适用于通知、通报类事务性公文写作",
+          "id": 11,
+          "name": "Text 2",
+          "position": {
+            "left": 11758930,
+            "top": 4453890,
+            "width": 4027805,
+            "height": 1588135
+          }
+        },
+        {
+          "type": "text",
+          "content": "提纲生成",
+          "id": 14,
+          "name": "文本框 13",
+          "position": {
+            "left": 17240641,
+            "top": 3716693,
+            "width": 2864515,
+            "height": 645160
+          }
+        },
+        {
+          "type": "text",
+          "content": "适用于专题稿件写作，提供写作框架参考使用",
+          "id": 15,
+          "name": "Text 2",
+          "position": {
+            "left": 16607155,
+            "top": 4466590,
+            "width": 4100830,
+            "height": 859155
+          }
+        },
+        {
+          "type": "text",
+          "content": "AI助手",
+          "id": 16,
+          "name": "文本框 15",
+          "position": {
+            "left": 2085731,
+            "top": 3761778,
+            "width": 2864515,
+            "height": 645160
+          }
+        },
+        {
+          "type": "text",
+          "content": "适用于大部分公文写作，结构固定，可一次性输出完整文章",
+          "id": 21,
+          "name": "Text 2",
+          "position": {
+            "left": 6740525,
+            "top": 4293235,
+            "width": 3844925,
+            "height": 1543685
+          }
+        },
+        {
+          "type": "text",
+          "content": "输入具体问题，要求越明确，生成的内容越贴切\n支持选择指定知识库进行提问",
+          "id": 24,
+          "name": "文本框 23",
+          "position": {
+            "left": 1656080,
+            "top": 6477000,
+            "width": 3916680,
+            "height": 4299585
+          }
+        },
+        {
+          "type": "text",
+          "content": "结合日常工作需要，提供四类写作工具，可结合具体情况选择使用。",
+          "id": 46,
+          "name": "文本框 45",
+          "position": {
+            "left": 2085975,
+            "top": 2491105,
+            "width": 16694785,
+            "height": 645160
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 2,
+          "name": "图片 1",
+          "position": {
+            "left": 1323975,
+            "top": 5066665,
+            "width": 12668885,
+            "height": 6220460
+          }
+        },
+        {
+          "type": "text",
+          "content": "公文写作编辑界面在哪里？",
+          "id": 37,
+          "name": "标题 1",
+          "position": {
+            "left": 3335655,
+            "top": 1232853,
+            "width": 16674465,
+            "height": 812165
+          }
+        },
+        {
+          "type": "text",
+          "content": "在平台主页中点击左侧【公文写作】菜单，进入【公文写作】功能板块，默认展示历史记录信息。\n",
+          "id": 3,
+          "name": "文本框 2",
+          "position": {
+            "left": 697230,
+            "top": 2343785,
+            "width": 8156575,
+            "height": 3453765
+          }
+        },
+        {
+          "type": "text",
+          "content": "点击左侧“全新创作”按钮，进入公文写作编辑页。\n",
+          "id": 5,
+          "name": "文本框 4",
+          "position": {
+            "left": 9389110,
+            "top": 2365375,
+            "width": 11227435,
+            "height": 1791335
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 4,
+          "name": "图片 3",
+          "position": {
+            "left": 9509125,
+            "top": 3883025,
+            "width": 11413490,
+            "height": 5587365
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "如何使用AI智能体的“会议纪要”功能？",
+          "id": 37,
+          "name": "标题 1",
+          "position": {
+            "left": 3335655,
+            "top": 1232853,
+            "width": 16674465,
+            "height": 812165
+          }
+        },
+        {
+          "type": "text",
+          "content": "附件：可上传单个文件\n输入：上传文件或输入内容（文本）\n选择模型：通义千问72B/DeepSeek-R1\n点击“发送”\n等待会议纪要生成\n继续提问或复制使用",
+          "id": 3,
+          "name": "文本框 2",
+          "position": {
+            "left": 995680,
+            "top": 2386965,
+            "width": 5006975,
+            "height": 8162925
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 4,
+          "name": "图片 3",
+          "position": {
+            "left": 6351905,
+            "top": 2696845,
+            "width": 14034770,
+            "height": 8412480
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "平台中有哪些知识库？",
+          "id": 5,
+          "name": "标题 1",
+          "position": {
+            "left": 3323590,
+            "top": 1237298,
+            "width": 10898505,
+            "height": 812165
+          }
+        },
+        {
+          "type": "text",
+          "content": "    平台目前提供8个知识库，分别是【中国党建知识资源库】【习近平思想专题学习】【总书记讲话】【领导讲话】【马列主义文章】【微信公众号文章】【政策文件】【党报党刊】，用户可选择指定知识库进行提问，还可创建自定义知识库。\n",
+          "id": 2,
+          "name": "文本框 1",
+          "position": {
+            "left": 983615,
+            "top": 2254885,
+            "width": 18586450,
+            "height": 2396490
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 11,
+          "name": "图片 10",
+          "position": {
+            "left": 1082675,
+            "top": 5222875,
+            "width": 12420600,
+            "height": 6494145
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 12,
+          "name": "图片 11",
+          "position": {
+            "left": 15103475,
+            "top": 6097905,
+            "width": 5797550,
+            "height": 4507230
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "如何使用知识库？",
+          "id": 5,
+          "name": "标题 1",
+          "position": {
+            "left": 3323590,
+            "top": 1237298,
+            "width": 10898505,
+            "height": 812165
+          }
+        },
+        {
+          "type": "text",
+          "content": "输入：具体问题\n选择模型：\n通义千问72B/DeepSeek-R1\n选择对应知识库（支持多选，将根据选择的知识库生成结果）\n点击“发送”\n等待内容生成\n继续提问或复制使用",
+          "id": 2,
+          "name": "文本框 1",
+          "position": {
+            "left": 983615,
+            "top": 2384425,
+            "width": 6148070,
+            "height": 8201025
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 14,
+          "name": "图片 13",
+          "position": {
+            "left": 7127240,
+            "top": 2963545,
+            "width": 14220190,
+            "height": 7435215
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 15,
+          "name": "图片 14",
+          "position": {
+            "left": 14872970,
+            "top": 4885055,
+            "width": 6137910,
+            "height": 2940685
+          }
+        }
+      ]
+    },
+    {
+      "layout_name": "节标题",
+      "elements": [
+        {
+          "type": "text",
+          "content": "感谢使用",
+          "id": 6,
+          "name": "标题 1",
+          "position": {
+            "left": 9984105,
+            "top": 4925695,
+            "width": 5010150,
+            "height": 1788795
+          }
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "name": "标题幻灯片",
+      "elements": [
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 8,
+          "name": "图片 7",
+          "position": {
+            "left": 0,
+            "top": 596,
+            "width": 21682075,
+            "height": 12196167
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 9,
+          "name": "图片 8",
+          "position": {
+            "left": 308695,
+            "top": 457813,
+            "width": 4620922,
+            "height": 1434626
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 10,
+          "name": "图片 9",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 21682075,
+            "height": 2047187
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 2710260,
+            "top": 1996092,
+            "width": 16261556,
+            "height": 4246280
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版副标题样式",
+          "id": 3,
+          "name": "副标题 2",
+          "position": {
+            "left": 2710260,
+            "top": 6406125,
+            "width": 16261556,
+            "height": 2944727
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 4,
+          "name": "日期占位符 3",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "页脚占位符 4",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 6,
+          "name": "灯片编号占位符 5",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        }
+      ]
+    },
+    {
+      "name": "标题和内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1490643,
+            "top": 649366,
+            "width": 18700790,
+            "height": 2357477
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 3,
+          "name": "内容占位符 2",
+          "position": {
+            "left": 1490643,
+            "top": 3246824,
+            "width": 18700790,
+            "height": 7738734
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 4,
+          "name": "日期占位符 3",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "页脚占位符 4",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 6,
+          "name": "灯片编号占位符 5",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": " ",
+          "id": 7,
+          "name": "矩形 6",
+          "position": {
+            "left": 1490980,
+            "top": 10431780,
+            "width": 19785965,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "节标题",
+      "elements": [
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 8,
+          "name": "图片 7",
+          "position": {
+            "left": 0,
+            "top": 596,
+            "width": 21682075,
+            "height": 12196167
+          }
+        },
+        {
+          "type": "image",
+          "image_info": {
+            "filename": "",
+            "size": ""
+          },
+          "id": 10,
+          "name": "图片 9",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 21682075,
+            "height": 2047187
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1479350,
+            "top": 3040722,
+            "width": 18700790,
+            "height": 5073514
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式",
+          "id": 3,
+          "name": "文本占位符 2",
+          "position": {
+            "left": 1479350,
+            "top": 8162234,
+            "width": 18700790,
+            "height": 2668041
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 4,
+          "name": "日期占位符 3",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "页脚占位符 4",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 6,
+          "name": "灯片编号占位符 5",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        }
+      ]
+    },
+    {
+      "name": "两栏内容",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1490643,
+            "top": 649366,
+            "width": 18700790,
+            "height": 2357477
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 3,
+          "name": "内容占位符 2",
+          "position": {
+            "left": 1490643,
+            "top": 3246824,
+            "width": 9214882,
+            "height": 7738734
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 4,
+          "name": "内容占位符 3",
+          "position": {
+            "left": 10976550,
+            "top": 3246824,
+            "width": 9214882,
+            "height": 7738734
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 5,
+          "name": "日期占位符 4",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 6,
+          "name": "页脚占位符 5",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 7,
+          "name": "灯片编号占位符 6",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 8,
+          "name": "矩形 7",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "比较",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1493467,
+            "top": 649366,
+            "width": 18700790,
+            "height": 2357477
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式",
+          "id": 3,
+          "name": "文本占位符 2",
+          "position": {
+            "left": 1493468,
+            "top": 2989902,
+            "width": 9172533,
+            "height": 1465305
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 4,
+          "name": "内容占位符 3",
+          "position": {
+            "left": 1493468,
+            "top": 4455206,
+            "width": 9172533,
+            "height": 6552938
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式",
+          "id": 5,
+          "name": "文本占位符 4",
+          "position": {
+            "left": 10976550,
+            "top": 2989902,
+            "width": 9217706,
+            "height": 1465305
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 6,
+          "name": "内容占位符 5",
+          "position": {
+            "left": 10976550,
+            "top": 4455206,
+            "width": 9217706,
+            "height": 6552938
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 7,
+          "name": "日期占位符 6",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 8,
+          "name": "页脚占位符 7",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 9,
+          "name": "灯片编号占位符 8",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 10,
+          "name": "矩形 9",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "仅标题",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1490643,
+            "top": 649366,
+            "width": 18700790,
+            "height": 2357477
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 3,
+          "name": "日期占位符 2",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 4,
+          "name": "页脚占位符 3",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 5,
+          "name": "灯片编号占位符 4",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 6,
+          "name": "矩形 5",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "空白",
+      "elements": [
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 2,
+          "name": "日期占位符 1",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 3,
+          "name": "页脚占位符 2",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 4,
+          "name": "灯片编号占位符 3",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 6,
+          "name": "矩形 5",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "内容与标题",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1493468,
+            "top": 813118,
+            "width": 6993033,
+            "height": 2845911
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 3,
+          "name": "内容占位符 2",
+          "position": {
+            "left": 9217706,
+            "top": 1756109,
+            "width": 10976550,
+            "height": 8667607
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式",
+          "id": 4,
+          "name": "文本占位符 3",
+          "position": {
+            "left": 1493468,
+            "top": 3659029,
+            "width": 6993033,
+            "height": 6778804
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 5,
+          "name": "日期占位符 4",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 6,
+          "name": "页脚占位符 5",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 7,
+          "name": "灯片编号占位符 6",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 8,
+          "name": "矩形 7",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "图片与标题",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1493468,
+            "top": 813118,
+            "width": 6993033,
+            "height": 2845911
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 3,
+          "name": "图片占位符 2",
+          "position": {
+            "left": 9217706,
+            "top": 1756109,
+            "width": 10976550,
+            "height": 8667607
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式",
+          "id": 4,
+          "name": "文本占位符 3",
+          "position": {
+            "left": 1493468,
+            "top": 3659029,
+            "width": 6993033,
+            "height": 6778804
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 5,
+          "name": "日期占位符 4",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 6,
+          "name": "页脚占位符 5",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 7,
+          "name": "灯片编号占位符 6",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        }
+      ]
+    },
+    {
+      "name": "标题和竖排文字",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "标题 1",
+          "position": {
+            "left": 1490643,
+            "top": 649366,
+            "width": 18700790,
+            "height": 2357477
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 3,
+          "name": "竖排文字占位符 2",
+          "position": {
+            "left": 1490643,
+            "top": 3246824,
+            "width": 18700790,
+            "height": 7738734
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 4,
+          "name": "日期占位符 3",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "页脚占位符 4",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 6,
+          "name": "灯片编号占位符 5",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        }
+      ]
+    },
+    {
+      "name": "竖排标题与文本",
+      "elements": [
+        {
+          "type": "text",
+          "content": "单击此处编辑母版标题样式",
+          "id": 2,
+          "name": "竖排标题 1",
+          "position": {
+            "left": 15516235,
+            "top": 649365,
+            "width": 4675197,
+            "height": 10336193
+          }
+        },
+        {
+          "type": "text",
+          "content": "单击此处编辑母版文本样式\n二级\n三级\n四级\n五级",
+          "id": 3,
+          "name": "竖排文字占位符 2",
+          "position": {
+            "left": 1490643,
+            "top": 649365,
+            "width": 13754566,
+            "height": 10336193
+          }
+        },
+        {
+          "type": "text",
+          "content": "2025/6/30",
+          "id": 4,
+          "name": "日期占位符 3",
+          "position": {
+            "left": 1490643,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "",
+          "id": 5,
+          "name": "页脚占位符 4",
+          "position": {
+            "left": 7182188,
+            "top": 11304593,
+            "width": 7317700,
+            "height": 649365
+          }
+        },
+        {
+          "type": "text",
+          "content": "‹#›",
+          "id": 6,
+          "name": "灯片编号占位符 5",
+          "position": {
+            "left": 15312965,
+            "top": 11304593,
+            "width": 4878467,
+            "height": 649365
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "DEFAULT",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": []
+    },
+    {
+      "name": "",
+      "elements": [
+        {
+          "type": "text",
+          "content": "宣传系统辅助办公平台",
+          "id": 6,
+          "name": "矩形 5",
+          "position": {
+            "left": 17975580,
+            "top": 10431780,
+            "width": 3301365,
+            "height": 1033145
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "elements": []
+    }
+  ]
+}
