@@ -1,0 +1,483 @@
+/* Cyberpunk Theme - 赛博朋克风格 */
+/* 采用霓虹色调，暗黑背景，极简但富有冲击力的线条感 */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;800&family=Rajdhani:wght@300;400;600;700&display=swap');
+
+:root {
+  --color-primary: #ff0080;      /* 霓虹粉 */
+  --color-secondary: #00ffff;    /* 霓虹青 */
+  --color-accent: #ff4500;       /* 霓虹橙 */
+  --color-text: #ffffff;         /* 纯白文字 */
+  --color-text-dim: #b0b0b0;     /* 灰白文字 */
+  --color-background: #0a0a0a;   /* 深黑背景 */
+  --color-background-alt: #1a1a1a; /* 稍浅黑 */
+  --color-border: #333333;       /* 边框色 */
+  --color-glow: rgba(255, 0, 128, 0.5); /* 发光效果 */
+
+  --font-heading: 'Rajdhani', sans-serif;
+  --font-body: 'JetBrains Mono', monospace;
+
+  --shadow-glow: 0 0 20px var(--color-glow);
+  --shadow-text: 0 0 10px rgba(255, 255, 255, 0.3);
+  --gradient-primary: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+}
+
+/* 基础样式 */
+section {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  padding: 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 添加背景网格效果 */
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(rgba(255, 0, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* 标题样式 */
+h1 {
+  font-family: var(--font-heading);
+  font-size: 4em;
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: var(--shadow-text);
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: var(--gradient-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: 2.8em;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  border-left: 5px solid var(--color-secondary);
+  padding-left: 1em;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 2.2em;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.8em;
+  text-shadow: var(--shadow-glow);
+}
+
+h4, h5, h6 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* 列表样式 */
+ul, ol {
+  padding-left: 2em;
+  margin: 1.5em 0;
+}
+
+li {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  position: relative;
+  line-height: 1.6;
+}
+
+li::marker {
+  color: var(--color-primary);
+  text-shadow: var(--shadow-glow);
+}
+
+/* 段落样式 */
+p {
+  margin-bottom: 1.2em;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* 强调样式 */
+strong, b {
+  color: var(--color-primary);
+  font-weight: 800;
+  text-shadow: var(--shadow-glow);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+em, i {
+  color: var(--color-secondary);
+  font-style: normal;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* 链接样式 */
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-secondary);
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+a:hover {
+  border-bottom-color: var(--color-primary);
+  color: var(--color-primary);
+  text-shadow: var(--shadow-glow);
+}
+
+/* 引用样式 */
+blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 1.5em;
+  margin: 2em 0;
+  background: rgba(255, 0, 128, 0.1);
+  padding: 1.5em 2em;
+  border-radius: 0 8px 8px 0;
+  position: relative;
+  box-shadow: var(--shadow-glow);
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 4em;
+  color: var(--color-primary);
+  opacity: 0.3;
+  font-family: var(--font-heading);
+}
+
+/* 代码样式 */
+code {
+  background: rgba(255, 69, 0, 0.2);
+  color: var(--color-accent);
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 0.9em;
+  border: 1px solid var(--color-accent);
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+}
+
+pre {
+  background: var(--color-background-alt);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 2em;
+  overflow-x: auto;
+  box-shadow: var(--shadow-glow);
+  position: relative;
+}
+
+pre::before {
+  content: '>';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--color-secondary);
+  font-size: 1.2em;
+  opacity: 0.5;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+/* 表格样式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  background: var(--color-background-alt);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-glow);
+}
+
+th, td {
+  padding: 1em;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+th {
+  background: var(--gradient-primary);
+  color: var(--color-background);
+  font-weight: 700;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-shadow: none;
+}
+
+tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+  background: rgba(255, 0, 128, 0.1);
+  box-shadow: 0 0 15px rgba(255, 0, 128, 0.2);
+}
+
+/* 自定义布局类 */
+
+/* 封面页 */
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, var(--color-background) 0%, #000000 100%);
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 0, 128, 0.1) 10px,
+      rgba(255, 0, 128, 0.1) 20px
+    );
+  pointer-events: none;
+}
+
+.cover h1 {
+  font-size: 6em;
+  margin-bottom: 0.3em;
+  text-shadow: var(--shadow-glow);
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: var(--shadow-glow); }
+  to { text-shadow: 0 0 30px var(--color-primary), 0 0 40px var(--color-secondary); }
+}
+
+.cover p {
+  font-size: 1.5em;
+  opacity: 0.8;
+  margin-top: 1em;
+  text-shadow: var(--shadow-text);
+}
+
+/* 分栏布局 */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: center;
+  margin: 2em 0;
+  position: relative;
+}
+
+.split::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 80%;
+  background: var(--gradient-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.split > * {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+/* 引用页 */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  background: var(--color-background-alt);
+  border: 2px solid var(--color-primary);
+  border-radius: 15px;
+  margin: 2em;
+  box-shadow: var(--shadow-glow);
+  position: relative;
+}
+
+.quote::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: var(--gradient-primary);
+  border-radius: 17px;
+  z-index: -1;
+  animation: borderGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes borderGlow {
+  from { opacity: 0.5; }
+  to { opacity: 1; }
+}
+
+.quote blockquote {
+  font-size: 2em;
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 2em;
+  text-shadow: var(--shadow-text);
+}
+
+.quote .author {
+  margin-top: 1em;
+  font-size: 1.3em;
+  color: var(--color-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* 数据可视化 */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.stat-item {
+  background: var(--color-background-alt);
+  padding: 2em;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid var(--color-secondary);
+  box-shadow: var(--shadow-glow);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 0, 128, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.stat-item:hover::before {
+  left: 100%;
+}
+
+.stat-number {
+  font-size: 3.5em;
+  font-weight: bold;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  margin-bottom: 0.5em;
+  text-shadow: var(--shadow-text);
+}
+
+.stat-label {
+  color: var(--color-text-dim);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+}
+
+/* 页脚样式 */
+footer {
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
+  right: 2em;
+  text-align: center;
+  color: var(--color-text-dim);
+  font-size: 0.8em;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1em;
+  margin-top: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* 页码样式 */
+section::after {
+  content: attr(data-marpit-pagination) " // " attr(data-marpit-pagination-total);
+  position: absolute;
+  bottom: 1em;
+  right: 2em;
+  color: var(--color-secondary);
+  font-size: 0.9em;
+  background: rgba(10, 10, 10, 0.8);
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  border: 1px solid var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: var(--shadow-glow);
+}

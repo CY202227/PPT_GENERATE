@@ -1,0 +1,315 @@
+/* Formal Corporate Theme - 政企严肃风格 */
+/* 采用深蓝色调，衬线字体，强调权威感和专业性 */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+:root {
+  --color-primary: #1e3a8a;      /* 深蓝色 */
+  --color-secondary: #3b82f6;    /* 中蓝色 */
+  --color-accent: #1e40af;       /* 强调色 */
+  --color-text: #1f2937;         /* 深灰文字 */
+  --color-text-light: #6b7280;   /* 浅灰文字 */
+  --color-background: #ffffff;   /* 纯白背景 */
+  --color-background-alt: #f8fafc; /* 浅灰背景 */
+  --color-border: #e5e7eb;       /* 边框色 */
+
+  --font-heading: 'Source Serif Pro', serif;
+  --font-body: 'Source Sans Pro', sans-serif;
+
+  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 基础样式 */
+section {
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-alt) 100%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  padding: 2em;
+  line-height: 1.6;
+}
+
+/* 标题样式 */
+h1 {
+  font-family: var(--font-heading);
+  font-size: 3.2em;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 0.5em;
+  text-shadow: var(--shadow-light);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: 2.4em;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.8em;
+  border-bottom: 3px solid var(--color-secondary);
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 0.6em;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.4em;
+}
+
+/* 列表样式 */
+ul, ol {
+  padding-left: 1.5em;
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: 0.8em;
+  padding-left: 0.5em;
+  position: relative;
+}
+
+li::marker {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+/* 段落样式 */
+p {
+  margin-bottom: 1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* 强调样式 */
+strong, b {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+em, i {
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* 链接样式 */
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--color-secondary);
+}
+
+/* 引用样式 */
+blockquote {
+  border-left: 4px solid var(--color-accent);
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: var(--color-text-light);
+  background: rgba(30, 58, 138, 0.05);
+  padding: 1em 1.5em;
+  border-radius: 0 4px 4px 0;
+}
+
+/* 代码样式 */
+code {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--color-accent);
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9em;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+pre {
+  background: var(--color-background-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1.5em;
+  overflow-x: auto;
+  box-shadow: var(--shadow-light);
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* 表格样式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  box-shadow: var(--shadow-medium);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.8em 1em;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+th {
+  background: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+
+tr:nth-child(even) {
+  background: var(--color-background-alt);
+}
+
+tr:hover {
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* 自定义布局类 */
+
+/* 封面页 */
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-primary) 100%);
+  color: white;
+}
+
+.cover h1 {
+  font-size: 4.5em;
+  margin-bottom: 0.3em;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cover p {
+  font-size: 1.5em;
+  opacity: 0.9;
+  margin-top: 1em;
+}
+
+/* 分栏布局 */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.split > * {
+  padding: 1em;
+}
+
+/* 引用页 */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  background: var(--color-background-alt);
+  border-radius: 12px;
+  margin: 2em;
+  box-shadow: var(--shadow-medium);
+}
+
+.quote blockquote {
+  font-size: 1.8em;
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 2em;
+}
+
+.quote .author {
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* 内容页 */
+.content {
+  padding: 2em 3em;
+}
+
+/* 统计数据样式 */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.stat-item {
+  background: var(--color-background-alt);
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-light);
+}
+
+.stat-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.stat-label {
+  color: var(--color-text-light);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* 页脚样式增强 */
+footer {
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
+  right: 2em;
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: 0.8em;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
+/* 页码样式 */
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  position: absolute;
+  bottom: 1em;
+  right: 2em;
+  color: var(--color-text-light);
+  font-size: 0.8em;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+}
