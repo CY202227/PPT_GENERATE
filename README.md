@@ -1,3 +1,3 @@
 # PPT Generate
 
-This project has been converted to a Model Context Protocol (MCP) server.
+🎯 AI-powered PowerPoint generator that creates presentations using templates. Features smart content mapping, chart & SmartArt support. Built with Python and OpenAI API. Perfect for automated presentation generation.
